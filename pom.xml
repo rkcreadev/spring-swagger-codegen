@@ -4,7 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.rkcreadev.codegen</groupId>
+    <!--TODO: ADD PARENT OR SET groupId-->
+
     <artifactId>swagger-api</artifactId>
     <version>0.1</version>
 
@@ -22,10 +23,10 @@
     </dependencies>
 
     <properties>
-            <swagger.codegen.version>2.3.0</swagger.codegen.version>
-            <swagger.specification.path>${project.basedir}/src/main/resources/swagger.yaml</swagger.specification.path>
-            <swagger.model.package>com.rkcreadev.demo.petstore.api.dto</swagger.model.package>
-            <swagger.controller.package>com.rkcreadev.demo.petstore.api.controller</swagger.controller.package>
+        <swagger.codegen.version>2.3.0</swagger.codegen.version>
+        <swagger.specification.path>${project.basedir}/src/main/resources/swagger.yaml</swagger.specification.path>
+        <swagger.model.package>com.rkcreadev.demo.petstore.api.dto</swagger.model.package>
+        <swagger.controller.package>com.rkcreadev.demo.petstore.api.controller</swagger.controller.package>
     </properties>
 
     <build>
